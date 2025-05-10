@@ -1,6 +1,7 @@
 package com.example.lab02;
 
 import android.os.Bundle;
+import android.widget.Button;
 import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
@@ -50,7 +51,8 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         Toast.makeText(this, "CR424 - onCreat()", Toast.LENGTH_SHORT).show();
         btncall = findViewById(R.id.btncall);
-        btncall.setOnClickListener(new View.OnClickListener() {
+        btncall.setOnClickListener(view -> {
+
         });
     }
 }
