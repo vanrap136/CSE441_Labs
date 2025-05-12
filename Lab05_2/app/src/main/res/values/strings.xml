@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Lab05_2</string>
+    <string name="giapphuongtrinhbac2">Giải phương trình bậc 2</string>
+    <string name="nhapa">Nhập a:</string>
+    <string name="nhapb">Nhập b:</string>
+    <string name="nhapc">Nhập c:</string>
+    <string name="giappt">Giải PT</string>
+    <string name="thoat">Thoát</string>
+    <string name="tieptuc">Tiếp tục</string>
+</resources>
