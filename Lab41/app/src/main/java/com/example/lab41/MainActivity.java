@@ -1,24 +1,72 @@
 package com.example.lab41;
 
-import android.os.Bundle;
-
-import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.core.graphics.Insets;
-import androidx.core.view.ViewCompat;
-import androidx.core.view.WindowInsetsCompat;
+
+import android.os.Bundle;
+import android.text.TextUtils;
+import android.view.View;
+import android.widget.Button;
+import android.widget.EditText;
+import android.widget.Toast;
+
+import java.text.DecimalFormat;
 
 public class MainActivity extends AppCompatActivity {
+
+    EditText edtC, edtF;
+    Button btnCel, btnFar, btnClear;
+    DecimalFormat dcf = new DecimalFormat("#.##");
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        EdgeToEdge.enable(this);
         setContentView(R.layout.activity_main);
-        ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main), (v, insets) -> {
-            Insets systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars());
-            v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
-            return insets;
+
+        edtC = findViewById(R.id.edtC);
+        edtF = findViewById(R.id.edtF);
+        btnCel = findViewById(R.id.btnCel);
+        btnFar = findViewById(R.id.btnFar);
+        btnClear = findViewById(R.id.btnClear);
+
+        btnFar.setOnClickListener(v -> {
+            String strF = edtF.getText().toString();
+
+            if (TextUtils.isEmpty(strF)) {
+                Toast.makeText(MainActivity.this, "Please enter Fahrenheit value", Toast.LENGTH_SHORT).show();
+                return;
+            }
+
+            try {
+                double F = Double.parseDouble(strF);
+                double C = (F - 32) * 5.0 / 9.0;
+                edtC.setText(dcf.format(C));
+            } catch (NumberFormatException e) {
+                Toast.makeText(MainActivity.this, "Invalid Fahrenheit value", Toast.LENGTH_SHORT).show();
+                edtF.setText("");
+            }
+        });
+
+        btnCel.setOnClickListener(v -> {
+            String strC = edtC.getText().toString();
+
+            if (TextUtils.isEmpty(strC)) {
+                Toast.makeText(MainActivity.this, "Please enter Celsius value", Toast.LENGTH_SHORT).show();
+                return;
+            }
+
+            try {
+                double C = Double.parseDouble(strC);
+                double F = (C * 9.0 / 5.0) + 32;
+                edtF.setText(dcf.format(F));
+            } catch (NumberFormatException e) {
+                Toast.makeText(MainActivity.this, "Invalid Celsius value", Toast.LENGTH_SHORT).show();
+                edtC.setText("");
+            }
+        });
+
+        btnClear.setOnClickListener(v -> {
+            edtC.setText("");
+            edtF.setText("");
         });
     }
 }
