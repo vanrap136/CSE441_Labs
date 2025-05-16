@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Lab10</string>
+    <string name="ung_dung_lang_nghe_tin_nhan_sms">Ứng dụng lắng nghe tin nhắn SMS</string>
+    <string name="chua_co_tin_nhan_moi">Chưa có tin nhắn mới</string>
+</resources>
