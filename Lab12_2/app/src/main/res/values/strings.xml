@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Lab12_2</string>
+    <string name="h_m_nay">Hôm Nay:</string>
+    <string name="gi">Giờ:</string>
+    <string name="add_work">Add Work</string>
+    <string name="enter_the_work_here">Enter the work here...</string>
+</resources>
