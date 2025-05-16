@@ -9,11 +9,11 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/yeucauketqua"
+        android:text="@string/xulyketqua"
         android:textSize="20sp"
         android:textStyle="bold"
         android:layout_marginBottom="16dp"
-        android:textColor="#FF0000"/>
+        android:textColor="#0000FF"/>
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -24,19 +24,20 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/nhapa"
+            android:text="@string/nhana"
             android:textSize="16sp"
             android:layout_marginEnd="8dp"
-            android:textColor="#008000"/>
+            android:textColor="#008080"/>
 
         <EditText
-            android:id="@+id/edtA"
+            android:id="@+id/edtAA"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:autofillHints=""
-            android:inputType="numberSigned|numberDecimal"
-            tools:ignore="LabelFor,SpeakableTextPresentCheck,TouchTargetSizeCheck,VisualLintTextFieldSize" />
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            tools:ignore="LabelFor,TextFields,SpeakableTextPresentCheck,TouchTargetSizeCheck,VisualLintTextFieldSize" />
 
     </LinearLayout>
 
@@ -49,38 +50,13 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/nhapb"
+            android:text="@string/nhanb"
             android:textSize="16sp"
             android:layout_marginEnd="8dp"
-            android:textColor="#008000"/>
+            android:textColor="#008080"/>
 
         <EditText
-            android:id="@+id/edtB"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:autofillHints=""
-            android:inputType="numberSigned|numberDecimal"
-            tools:ignore="LabelFor,SpeakableTextPresentCheck,TouchTargetSizeCheck,VisualLintTextFieldSize" />
-
-    </LinearLayout>
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:layout_marginBottom="16dp">
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginEnd="8dp"
-            android:text="@string/ketqua"
-            android:textColor="#DD2C00"
-            android:textSize="16sp" />
-
-        <EditText
-            android:id="@+id/edtKQ"
+            android:id="@+id/edtBB"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -92,9 +68,15 @@
     </LinearLayout>
 
     <Button
-        android:id="@+id/btnrequest"
+        android:id="@+id/btnsendtong"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/yeucauketqu" />
+        android:text="@string/travetong" />
+
+    <Button
+        android:id="@+id/btnsendhieu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/travehieu" />
 
 </LinearLayout>

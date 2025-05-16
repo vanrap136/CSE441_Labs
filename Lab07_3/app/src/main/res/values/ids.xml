@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="edtAA" type="id" />
+    <item name="btnsendtong" type="id" />
+    <item name="btnsendhieu" type="id" />
+</resources>
