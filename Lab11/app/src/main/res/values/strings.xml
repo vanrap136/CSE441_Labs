@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Lab11</string>
+    <string name="show_web_page">SHOW WEB PAGE</string>
+    <string name="nh_p_link_website">Nhập Link Website</string>
+</resources>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/edtlink"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:autofillHints=""
+        android:hint="@string/nh_p_link_website"
+        android:minHeight="48dp"
+        android:textColorHint="#546E7A"
+        android:textSize="18sp"
+        tools:ignore="TextFields" />
+
+    <Button
+        android:id="@+id/btnopen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/show_web_page"
+        android:textSize="18sp"/>
+
+</LinearLayout>
