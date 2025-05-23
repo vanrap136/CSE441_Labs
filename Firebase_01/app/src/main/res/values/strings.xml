@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">FirebaseApp</string> <string name="player_id_format">ID: %s</string>
+    <string name="player_name_format">Tên: %s</string>
+    <string name="player_email_format">Email: %s</string>
+    <string name="player_phone_format">SĐT: %s</string>
+    <string name="button_edit">Sửa</string>
+    <string name="button_delete">Xóa</string>
+
+    <string name="add_player_button">Thêm Hội viên</string>
+
+    <string name="hint_player_name">Tên hội viên</string>
+    <string name="hint_player_email">Email</string>
+    <string name="hint_player_phone">Số điện thoại</string>
+
+    <string name="dialog_add_title">Thêm Hội viên</string>
+    <string name="dialog_edit_title">Sửa Hội viên</string>
+    <string name="dialog_add_positive">Thêm</string>
+    <string name="dialog_update_positive">Cập nhật</string>
+    <string name="dialog_negative_button">Hủy</string>
+    <string name="toast_fill_all_info">Vui lòng điền đầy đủ thông tin</string>
+    <string name="toast_add_success">Thêm hội viên thành công</string>
+    <string name="toast_add_fail">Lỗi khi thêm hội viên: %s</string>
+    <string name="toast_update_success">Cập nhật hội viên thành công</string>
+    <string name="toast_update_fail">Lỗi khi cập nhật hội viên: %s</string>
+    <string name="toast_delete_success">Xóa hội viên thành công</string>
+    <string name="toast_delete_fail">Lỗi khi xóa hội viên: %s</string>
+    <string name="toast_load_fail">Không thể tải danh sách hội viên: %s</string>
+    <string name="confirm_delete_title">Xác nhận xóa</string>
+    <string name="confirm_delete_message">Bạn có chắc chắn muốn xóa hội viên %1$s (ID: %2$s)?</string>
+    <string name="confirm_delete_positive">Xóa</string>
+</resources>
