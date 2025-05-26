@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mã số:"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txtmaso"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:text="50931"
+        android:textSize="18sp"
+        android:textColor="@android:color/holo_red_dark" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tên bài hát:"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txttenbaihat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:text="999 ĐÓA HỒNG"
+        android:textSize="18sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lời bài hát:"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txtloibaihat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:text="Vàng em chiều nay anh\nđến thăm em bài\nbướm vàng đậu đây, để\nbuồn nhung nhớ..." />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tác giả:"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txttacgia"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:text="NHẠC HOA" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Yêu Thích:"
+        android:textStyle="bold" />
+
+    <ImageButton
+        android:id="@+id/btnyeuThich"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/favourite"
+        android:background="?android:attr/selectableItemBackgroundBorderless"
+        android:contentDescription="Yêu thích" />
+
+</LinearLayout>
