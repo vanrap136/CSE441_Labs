@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Lab05_1</string>
+    <string name="chuyendoinamduonglich">Chuyển đổi năm dương lịch</string>
+    <string name="namduonglich">Năm dương lịch:</string>
+    <string name="nâmmlich">Năm âm lịch:</string>
+    <string name="chuyendoi">Chuyển đổi</string>
+    <string name="nhapnam">Nhập năm</string>
+</resources>

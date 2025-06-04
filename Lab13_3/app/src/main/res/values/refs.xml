@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <drawable name="ip" />
+    <drawable name="samsung" />
+    <drawable name="cellphone" />
+    <drawable name="wp" />
+    <drawable name="sky" />
+    <drawable name="htc" />
+    <drawable name="lg" />
+</resources>

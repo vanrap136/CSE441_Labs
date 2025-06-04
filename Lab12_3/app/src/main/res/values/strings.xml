@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Lab12_3</string>
+    <string name="b_n_ang_l_m_t_t_b_n_ch_k_o_2_control_textview_v_spinner_v_o_ng_d_ng">Bạn đang làm tốt, bạn chỉ kéo 2 control: TextView và Spinner vào ứng dụng</string>
+</resources>

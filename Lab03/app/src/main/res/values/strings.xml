@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Lab03</string>
+    <string name="calculator">Calculator</string>
+    <string name="nhapa">Nhập a</string>
+    <string name="nhapb">Nhập b</string>
+    <string name="ketqua">Kết quả</string>
+    <string name="tong">TỔNG</string>
+    <string name="hieu">HIỆU</string>
+    <string name="tich">TÍCH</string>
+    <string name="thuong">THƯƠNG</string>
+</resources>

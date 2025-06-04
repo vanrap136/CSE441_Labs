@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">GridViewDemo</string>
+    <string name="selected_here">Bạn đã chọn: </string>
+    <string name="image_detail_activity">Image Detail</string>
+</resources>

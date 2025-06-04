@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Lab07_1</string>
+    <string name="open_child_activity">Open Child Activity</string>
+    <string name="this_is_main_activity">This is main Activity</string>
+    <string name="this_is_child_activity">This is Child Activity</string>
+    <string name="back_to_main_activity">Back to Main Activity</string>
+</resources>

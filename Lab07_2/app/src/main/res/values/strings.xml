@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Lab07_2</string>
+    <string name="giaiphuongtrinhbac1">Giải phương trình bậc 1</string>
+    <string name="nhapa">Nhập a:</string>
+    <string name="nhapb">Nhập b:</string>
+    <string name="ketqua">Kết quả</string>
+    <string name="ketquagiaiphuongtrinhbac1">Kết quả giải phương trình bậc 1</string>
+    <string name="back">Back</string>
+</resources>

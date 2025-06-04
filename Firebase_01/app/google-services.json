@@ -1,0 +1,49 @@
+{
+  "project_info": {
+    "project_number": "295997051810",
+    "firebase_url": "https://thfirebase-7227f-default-rtdb.firebaseio.com",
+    "project_id": "thfirebase-7227f",
+    "storage_bucket": "thfirebase-7227f.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:295997051810:android:caab01722969f2183d98fb",
+        "android_client_info": {
+          "package_name": "com.example.firebase_01"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBXqZxldrQ6ZpGwefF8UFUpH6-H95J4aUA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:295997051810:android:d6e2d61724c258373d98fb",
+        "android_client_info": {
+          "package_name": "com.example.thfirebase"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBXqZxldrQ6ZpGwefF8UFUpH6-H95J4aUA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

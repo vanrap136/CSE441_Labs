@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#87CEEB"
+        android:padding="10dp"
+        android:text="AutoCompleteTextView Demo"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        tools:ignore="HardcodedText,TextContrastCheck" />
+
+    <AutoCompleteTextView
+        android:id="@+id/autoComplete"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:completionThreshold="1"
+        android:ems="10"
+        android:hint="Nhập chữ cái đầu..."
+        android:requestFocus="true"
+        tools:ignore="HardcodedText,TextContrastCheck,TouchTargetSizeCheck,VisualLintTextFieldSize" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="#87CEEB"
+        android:padding="10dp"
+        android:text="MultiAutoCompleteTextView Demo"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        tools:ignore="HardcodedText,TextContrastCheck" />
+
+    <MultiAutoCompleteTextView
+        android:id="@+id/multiAutoComplete"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:completionThreshold="1"
+        android:ems="10"
+        android:hint="Nhập các tỉnh (cách nhau bởi dấu phẩy)..."
+        tools:ignore="HardcodedText,TextContrastCheck,TouchTargetSizeCheck,VisualLintTextFieldSize" />
+
+</LinearLayout>

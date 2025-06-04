@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Lab07_3</string>
+    <string name="xulyketqua">Xử lý Kết quả</string>
+    <string name="nhana">Nhận A:</string>
+    <string name="nhanb">Nhận B:</string>
+    <string name="travetong">TRẢ VỀ TỔNG</string>
+    <string name="travehieu">TRẢ VỀ HIỆU</string>
+    <string name="yeucauketqua">Yêu cầu kết quả</string>
+    <string name="nhapa">Nhập A:</string>
+    <string name="nhapb">Nhập B:</string>
+    <string name="ketqua">Kết quả:</string>
+    <string name="yeucauketqu">YÊU CẦU KẾT QUẢ</string>
+</resources>

@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Lab08_1</string>
+    <string name="call_phone">Call Phone</string>
+    <string name="send_sms">Send SMS</string>
+    <string name="input_phone_number">Input Phone Number</string>
+    <string name="back">Back</string>
+    <string name="todo">TODO</string>
+    <string name="input_phone_number_and_message">Input Phone Number and Message</string>
+    <string name="enter_phone_number">Enter phone number</string>
+    <string name="enter_message">Enter message</string>
+</resources>
